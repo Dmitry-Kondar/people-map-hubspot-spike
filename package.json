@@ -1,0 +1,26 @@
+{
+  "name": "people-map-hubspot-spike",
+  "version": "0.0.1",
+  "description": "Testing app to research the work of Hubspot applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node project/start.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.15.2"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dmitry-Kondar/people-map-hubspot-spike.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

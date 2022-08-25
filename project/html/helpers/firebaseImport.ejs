@@ -1,0 +1,20 @@
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+  import { getAuth } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js";
+  import { getDatabase } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js";
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "<%= process.env.FIREBASE_API_KEY %>",
+    authDomain: "hubspot-basics.firebaseapp.com",
+    databaseURL: "https://hubspot-basics-default-rtdb.firebaseio.com",
+    projectId: "hubspot-basics",
+    storageBucket: "hubspot-basics.appspot.com",
+    messagingSenderId: "197078094552",
+    appId: "1:197078094552:web:606cd98ee75da842d73dad"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const database = getDatabase(app);
+</script>
