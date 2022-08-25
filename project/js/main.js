@@ -12,22 +12,3 @@ function handleSignIn() {
     var credential = error.credential;
   })
 }
-
-// THIS FUNCTION IS HERE ONLY FOR FUTURRE REFERENCE!
-// function getweather(searchQurey) {
-//   var url = "https://api.openwethermap.ogr/data/2.5/weather?q="+searchQurey+"&units=imperial&APPID="+apiKey;
-//   $(".city").text("");
-//   $(".temp").text("");
-//   $(".error-message").text("");
-//   $.ajax(url, {success: function(data) {
-//     console.log(data);
-//     $(".city").text(data.name);
-//     $(".temp").text(data.main.temp);
-//   }, error: function(error) {
-//     $(".error-message").text("An error occured!");
-//   }})
-// }
-// function searchWeather() {
-//   var searchQurey = $(".search").val();
-//   getweather(searchQurey);
-// }
